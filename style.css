@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-icon {
+  width: 20px;
+}
+
+/* Nav bar style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  float: right;
+
+}
+
+li a {
+  padding: 10px;
+}
+
+.logo {
+  margin: auto;
+  padding-top: 189px;
+}
+
+.main-img {
+  width: 272px;
+}
+
+.sbar {
+  margin-top: 25px;
+  border-radius: 25px;
+  width: 475px;
+  border: 1px solid #D3D3D3;
+  padding: 13px;
+  background-color: white;
+}
+input[type="text"].sbar:hover {
+  box-shadow: 0px 1px 5px  	#D0D0D0;
+}
+
+section {
+  text-align: center;
+  display: block;
+}
+#search-google, #lucky {
+  background-color:  	#F5F5F5;
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 135px;
+  display: inline-block;
+  border: none;
+  font-size: 14px;
+  color: rgba(71, 71, 71, 0.952);
+  }
+#search-google {
+  margin-right: 8px;
+}
+p {
+  font-size: 13px;
+}
