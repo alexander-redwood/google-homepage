@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Google homepage</title>
+    <title>Google</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -11,24 +11,24 @@
 
       <!-- Navigation bar-->
       <nav>
-        <ul>
-          <li>
+        <ul class="head-ul">
+          <li class="head-li">
             <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.mx/">
               <button id ="sign-in" type="button">
                 Sign in
               </button>
             </a>
           </li> 
-          <li>
-              <a href="https://mail.google.com/mail/?tab=wm&ogbl">
-                <img
-                src="https://cdn4.iconfinder.com/data/icons/finite-application/16/grid-9-512.png"
-                class="nav-icon"
-                alt="Navigation 9 squares icon">
-              </a>
-            </li>
-          <li><a href="https://www.google.cz/imghp?hl=en&tab=wi&ogbl">Images</a></li>  
-          <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>        
+          <li class="head-li">
+            <a href="https://mail.google.com/mail/?tab=wm&ogbl">
+              <img
+              src="https://cdn4.iconfinder.com/data/icons/finite-application/16/grid-9-512.png"
+              class="nav-icon"
+              alt="Navigation 9 squares icon">
+            </a>
+          </li>
+          <li class="head-li"><a href="https://www.google.cz/imghp?hl=en&tab=wi&ogbl">Images</a></li>  
+          <li class="head-li"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>        
         </ul>
       </nav>
     </header>
@@ -55,7 +55,7 @@
       <button id ="lucky"type="button">
           I'm Feeling Lucky
       </button>
-      <p>
+      <p id="other-lang-offer">
           Google offered in:    
         <a href="https://www.google.com.mx/setprefs?sig=0__XPHeI3nFNP5rCLj5veMoCCXSdQ%3D&hl=cs&source=homepage&sa=X&ved=0ahUKEwi-udO6_77jAhVM1qYKHSc0CgwQ2ZgBCAs">
              čeština
@@ -65,8 +65,20 @@
 
     <!-- Footer/Downpage navigation-->
     <footer>
+      <div id="Czechia">
+        <span id="page-language">Czechia</span>
+      </div>
 
+      <ul id="foot-ul">
+        <li class="foot-li-r"><a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjv44CC6cLjAhUQJlAKHR5lA50Qzq0CCBg&url=https%3A%2F%2Fwww.google.ca%2Fpreferences%3Fhl%3Den&usg=AOvVaw2Ihbfwdn428SEZhAtARVmu">Settings</a></li>
+        <li class="foot-li-r"><a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjv44CC6cLjAhUQJlAKHR5lA50Q8qwCCBc&url=https%3A%2F%2Fwww.google.ca%2Fintl%2Fen_cz%2Fpolicies%2Fterms%2F%3Ffg%3D1&usg=AOvVaw12-I6LhN_P6wXbIoN0WXHt">Terms</a></li>
+        <li class="foot-li-r"><a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjv44CC6cLjAhUQJlAKHR5lA50Q8awCCBY&url=https%3A%2F%2Fwww.google.ca%2Fintl%2Fen_cz%2Fpolicies%2Fprivacy%2F%3Ffg%3D1&usg=AOvVaw2tSfwnXZKwdgI56l5zC5qK">Privacy</a></li>        
 
+        <li class="foot-li-l"><a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjv44CC6cLjAhUQJlAKHR5lA50QkdQCCBo&url=https%3A%2F%2Fwww.google.ca%2Fintl%2Fen_cz%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw011p-ZLjLQumx7iFu02Ldu">Advertising</a></li>
+        <li class="foot-li-l"><a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjv44CC6cLjAhUQJlAKHR5lA50QktQCCBs&url=https%3A%2F%2Fwww.google.ca%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw3K5s12FDvMKVD8mAMZE9eg">Business</a></li>
+        <li class="foot-li-l"><a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjv44CC6cLjAhUQJlAKHR5lA50QkNQCCBw&url=https%3A%2F%2Fwww.google.ca%2Fintl%2Fen_cz%2Fabout%2F%3Futm_source%3Dgoogle-CZ%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw3FYEEHezYWFmMHy4rOftHU">About</a></li>
+        <li class="foot-li-l"><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+      </ul>
     </footer>
   </body>
 </html>
