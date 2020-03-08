@@ -1,4 +1,25 @@
-The current project is google-homepage without hyperlinks to other websites.
-It demonstrates the usage of beginner HTML and CSS skills such as: basic tags, usage of selectors and attributes. 
+# Clone of the Google homepage
 
-From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+Simple clone of the Google homepage.
+
+## Getting Started
+
+You just need to open the link with your browser: [Link](https://alexredwood.github.io/google-homepage/).
+
+### Prerequisites
+
+1. An internet connection
+2. An installed browser
+
+## Built With
+
+- HTML
+- CSS
+
+## Authors
+
+- **Alexandr Rudenko** - _Initial work_ - [AlexRedwood](https://github.com/alexredwood)
+
+## Acknowledgments
+
+- Thanks to [TheOdinProject](https://www.theodinproject.com/dashboard) for inspiration.
